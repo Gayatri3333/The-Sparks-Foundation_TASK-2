@@ -1,4 +1,4 @@
-TASK-2: PREDICTION USING UNSUPERVISED ML
+# TASK-2: PREDICTION USING UNSUPERVISED ML
 
 # Importing the dataset and the required libraries
 
@@ -72,7 +72,7 @@ plt.xlabel('Number of Clusters')
 plt.ylabel('WCSS')
 plt.show()
 
-From this, we obtain the no. of clusters= 3
+# From this, we obtain the no. of clusters= 3
 
 kmeans = KMeans(n_clusters = 3, init = 'k-means++', random_state = 42)
 y_kmeans = kmeans.fit_predict(X)
